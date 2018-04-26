@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="10"
+    android:gravity="center"
+    android:paddingVertical="2dp"
+    android:background="#ffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgNV"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/male" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTenNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvMaNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="TextView"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="32dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="32dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:src="@drawable/delete"/>
+    <!--<CheckBox-->
+        <!--android:id="@+id/chbXoa"-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_weight="1" />-->
+</LinearLayout>
