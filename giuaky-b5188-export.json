@@ -1,0 +1,31 @@
+[ {
+  "choosen" : false,
+  "gioiTinh" : false,
+  "hotenNV" : "Maria Ozawa",
+  "id" : 0,
+  "maNV" : "KEO-502"
+}, {
+  "choosen" : false,
+  "gioiTinh" : false,
+  "hotenNV" : "Hera",
+  "id" : 1,
+  "maNV" : "LINK9G"
+}, {
+  "choosen" : false,
+  "gioiTinh" : true,
+  "hotenNV" : "Quách Tỉnh",
+  "id" : 2,
+  "maNV" : "MH370"
+}, {
+  "choosen" : false,
+  "gioiTinh" : false,
+  "hotenNV" : "Hoàng Dung",
+  "id" : 3,
+  "maNV" : "CMT8"
+}, {
+  "choosen" : false,
+  "gioiTinh" : true,
+  "hotenNV" : "Doãn Chí Bình",
+  "id" : 4,
+  "maNV" : "GPMN75"
+} ]
